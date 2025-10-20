@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Opcionales: suaves ajustes globales */
+:root {
+  --bg-cuidate: #4B23DB;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg-cuidate);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
