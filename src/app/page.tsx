@@ -29,10 +29,10 @@ export default function Home() {
             <Image
               src="/check.svg"
               alt="check"
-              width={24} // Tamaño fijo
-              height={24} // Tamaño fijo
+              width={24}
+              height={24}
               priority
-              className="w-[clamp(16px,4vw,24px)] h-[clamp(16px,4vw,24px)]" // Responsivo con Tailwind
+              className="w-auto h-auto"
             />
             <p className="text-[#4B23DB] text-sm md:text-base font-medium">
               Cotiza
@@ -42,10 +42,10 @@ export default function Home() {
             <Image
               src="/check.svg"
               alt="check"
-              width={24} // Tamaño fijo
-              height={24} // Tamaño fijo
+              width={24}
+              height={24}
               priority
-              className="w-[clamp(16px,4vw,24px)] h-[clamp(16px,4vw,24px)]" // Responsivo con Tailwind
+              className="w-auto h-auto"
             />
             <p className="text-[#4B23DB] text-sm md:text-base font-medium">
               Compara
@@ -55,10 +55,10 @@ export default function Home() {
             <Image
               src="/check.svg"
               alt="check"
-              width={24} // Tamaño fijo
-              height={24} // Tamaño fijo
+              width={24}
+              height={24}
               priority
-              className="w-[clamp(16px,4vw,24px)] h-[clamp(16px,4vw,24px)]" // Responsivo con Tailwind
+              className="w-auto h-auto"
             />
             <p className="text-[#4B23DB] text-sm md:text-base font-medium">
               Contrata
@@ -68,10 +68,10 @@ export default function Home() {
             <Image
               src="/check.svg"
               alt="check"
-              width={24} // Tamaño fijo
-              height={24} // Tamaño fijo
+              width={24}
+              height={24}
               priority
-              className="w-[clamp(16px,4vw,24px)] h-[clamp(16px,4vw,24px)]" // Responsivo con Tailwind
+              className="w-auto h-auto"
             />
             <p className="text-[#4B23DB] text-sm md:text-base font-medium">
               Reclama
@@ -79,6 +79,41 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <div className="flex justify-center items-center gap-6 mb-4">
+        <a
+          href="https://www.instagram.com/cuidate.app/?hl=en"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white text-sm md:text-base hover:underline"
+        >
+          Instagram
+        </a>
+        <a
+          href="https://linkedin.com/company/cuidateapp"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white text-sm md:text-base hover:underline"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://x.com/cuidateapp12921"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white text-sm md:text-base hover:underline"
+        >
+          Twitter
+        </a>
+        <a
+          href="https://www.tiktok.com/@cuidateapp"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white text-sm md:text-base hover:underline"
+        >
+          TikTok
+        </a>
+      </div>
 
       <footer className="text-white text-center text-[0.85rem] md:text-sm opacity-95 mb-4">
         © 2025 Cuidate. Simplificando el acceso a seguros en Venezuela.
